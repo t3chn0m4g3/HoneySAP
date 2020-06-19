@@ -46,11 +46,9 @@ class LogFeed(BaseFeed):
         self.feed_logger.addHandler(self.logfile_handler)
 
         self.logger.debug("Logging events to filename %s", self.log_filename)
-        self.feed_logger.info("Starting log feed")
-
+        
     def stop(self):
         """Removes the log file handler"""
-        self.feed_logger.info("Stopping log feed")
         self.feed_logger.removeHandler(self.logfile_handler)
         self.logger.debug("Closed log filename handler")
 
