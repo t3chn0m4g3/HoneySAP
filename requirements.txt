@@ -4,7 +4,6 @@ epydoc==3.0.1
 Flask==1.0
 gevent==1.0.2
 greenlet==0.4.15
-honeysap==0.1.2.dev0
 hpfeeds==3.0.0
 itsdangerous==1.1.0
 Jinja2==2.11.1
