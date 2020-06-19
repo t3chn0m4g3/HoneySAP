@@ -34,7 +34,7 @@ _loggeable_lock = Lock()
 
 
 # Declare default formatter for logs
-default_formatter = Formatter('%(name)s - %(asctime)-15s - %(levelname)-8s - %(message)s')
+default_formatter = Formatter('%(message)s')
 
 # Declare colored formatter if the requirement is available
 if colorlog:
