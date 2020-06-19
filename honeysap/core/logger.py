@@ -38,7 +38,7 @@ default_formatter = Formatter('%(message)s')
 
 # Declare colored formatter if the requirement is available
 if colorlog:
-    colored_formatter = colorlog.ColoredFormatter('%(blue)s%(name)s - %(green)s%(asctime)-15s - %(purple)s%(levelname)-8s - %(log_color)s%(message)s')
+    colored_formatter = colorlog.ColoredFormatter('%(message)s')
 else:
     colored_formatter = False
 
